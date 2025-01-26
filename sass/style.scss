@@ -401,6 +401,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	> .fh5co-container {
 		position: relative;
 		z-index: 10;
+		padding-top: 5%;
 	}
 	@media screen and (max-width: $screen-sm) {
 		height: 600px;
@@ -477,6 +478,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		padding: 30px;
 		width: 100%;
 		float: left;
+		padding-top: 35px;
 		@include border-radius(4px);
 		@media screen and (max-width: $screen-sm) {
 			margin-bottom: 10px;
